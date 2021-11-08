@@ -1,0 +1,130 @@
+/* Reset Css*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+1. vị trí
+2.kích thuoc (weith
+3.mau sắc
+4 kiểu dang (kieu chữ, hình tron, vuông,...) 
+*/
+
+#main {}
+
+#header {
+    height: 46px;
+    background-color: black;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav>li>a {
+    text-transform: uppercase;
+}
+
+#nav li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 46px;
+    padding: 0 24px;
+}
+
+#nav>li:hover>a, #nav .subnav li:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav {
+    display: none;
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav li {
+    width: 100%;
+}
+
+#nav .subnav a {
+    color: black;
+    line-height: 38px;
+}
+
+#nav .ti-angle-down {
+    font-size: 10px;
+}
+
+#header .search-btn {
+    float: right;
+    line-height: 46px;
+    padding: 0 21px;
+    cursor: pointer;
+}
+
+#header .search-btn:hover {
+    background-color: rgb(219, 55, 55);
+}
+
+#slider {
+    /* min-height: 500px; */
+    /* background-color: #333; */
+    margin-top: 46px;
+    padding-top: 50%;
+    position: relative;
+    background: url('/assets/img/ny.jpg') top center / cover no-repeat;
+}
+
+#slider .text-content {
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+#slider .text-content .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#slider .text-content .text-de {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#content {}
+
+#footer {}
