@@ -19,6 +19,9 @@ html {
 
 #main {}
 
+.clear {
+    clear: both;
+}
 #header {
     height: 46px;
     background-color: black;
@@ -125,6 +128,9 @@ html {
     margin-top: 20px;
 }
 
+
+/* content  */
+
 #content {}
 
 .content-section {
@@ -152,6 +158,43 @@ html {
 .about-text {
     font-size: 15px;
     text-align: justify;
+    line-height: 1.6;
+
 }
 
+#content .member-list {
+    margin-top: 48px;
+    padding-bottom: 112px;
+
+
+}
+
+#content .member-item {
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+#content .member-name {
+    margin-bottom: 15px;
+
+}
+
+#content .member-img {
+    width: 154px;
+    border-radius: 5px;
+}
+
+.tour-section {
+
+    background-color: #000;
+    color: #FFF;
+    min-height: 500px;
+
+}
+.tour-section .content-section {
+    padding-top: 74px;
+    margin-top: 0px;
+
+}
 #footer {}
