@@ -1,6 +1,6 @@
-https://www.w3schools.com/w3css/tryw3css_templates_band.htm#
+﻿https://www.w3schools.com/w3css/tryw3css_templates_band.htm#
 
-* phân tích: ok
+* phân tích: 
     1.header
     2.slider
     3.content:

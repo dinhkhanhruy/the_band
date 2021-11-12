@@ -197,4 +197,30 @@ html {
     margin-top: 0px;
 
 }
+
+.tickets-list {
+    background-color: #fff;
+    color: #000;
+    margin-top: 40px;
+    list-style: none;
+}
+.tickets-list li {
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+    font-size: 15px;
+}
+
+.tickets-list .sold-out {
+    color: #fff;
+    background-color: #f44336;
+    padding: 4px 8px;
+    line-height: 1.5;
+    margin-left: 20px;
+
+}
+.tickets-list .quantity {
+
+}
+
 #footer {}
