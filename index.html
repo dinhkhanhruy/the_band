@@ -12,6 +12,7 @@
 
 <body>
     <div id="main">
+        <!-- HEADER -->
         <div id="header">
             <!-- bigin: nav -->
             <ul id="nav">
@@ -40,8 +41,7 @@
             <!-- ènd: search -->
         </div>
 
-
-
+        <!-- SLIDER -->
         <div id="slider">
             <div class="text-content">
                 <h2 class="text-heading">New York</h2>
@@ -49,6 +49,8 @@
             </div>
         </div>
 
+
+        <!-- CONTENT -->
         <div id="content">
             <!-- the band section -->
             <div class="content-section">
@@ -69,19 +71,19 @@
                         <img src="./assets/img/bandmember.jpg" alt="name" class="member-img">
                     </div>
 
-                
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/bandmember.jpg" alt="name" class="member-img">
-                    </div>
-                
 
-               
                     <div class="member-item">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/bandmember.jpg" alt="name" class="member-img">
                     </div>
-                
+
+
+
+                    <div class="member-item">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/bandmember.jpg" alt="name" class="member-img">
+                    </div>
+
                     <div class="clear"></div>
                 </div>
             </div>
@@ -89,15 +91,57 @@
             <div class="tour-section">
 
                 <div class="content-section">
+
                     <h2 class="section-heading">TOUR DATES</h2>
                     <p class="section-sub-heading">Remember to book your tickets!</p>
                     <ul class="tickets-list">
                         <li>September <span class="sold-out">Sold out</span></li>
-                        <li>October  <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
                         <li>November <span class="quantity">3</span></li>
                     </ul>
-    
+
+                    <div class="place-list">
+                        <div class="place-item">
+                            <img src="./assets/img/newyork.jpg" alt="newyork" class="place-img">
+                            <div class="place-content">
+                                <h3 class="place-heading">New York</h3>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="place-buy-btn js-buy-tickets">Buy Tickets</button>
+
+                            </div>
+                        </div>
+
+                        <div class="place-item">
+                            <img src="./assets/img/paris.jpg" alt="paris" class="place-img">
+                            <div class="place-content">
+                                <h3 class="place-heading">Paris</h3>
+                                <p class="place-time">Sat 28 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="place-buy-btn js-buy-tickets">Buy Tickets</button>
+
+                            </div>
+                        </div>
+
+                        <div class="place-item">
+                            <img src="./assets/img/sanfran.jpg" alt="sanfran" class="place-img">
+                            <div class="place-content">
+                                <h3 class="place-heading">San Francisco</h3>
+                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="place-buy-btn js-buy-tickets">Buy Tickets</button>
+
+                            </div>
+
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+
                 </div>
+
+
+
             </div>
 
             <!-- Contact section -->
@@ -105,10 +149,65 @@
                 <h2 class="section-heading">CONTACT </h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
 
+                <div class="contact-content">
+                    <div class="contact-desc">
+                        <i class="ti-location-pin"></i>
+                    </div>
+                    <div class="contact-table">
+
+                    </div>
+                </div>
 
             </div>
         </div>
+
+
+        <!-- IMG -->
+        <img src="./assets/img/map.jpg" alt="map" class="img-map">
     </div>
+
+    <!-- MODAL -->
+    <div class="modal js-modal">
+        <div class="modal-container">
+
+            <div class="modal-close">
+                <i class="ti-close"></i>
+            </div>
+
+            <header class="modal-header">
+                <i class="ti-bag"></i>
+                Tickets
+            </header>
+
+            <div class="modal-body">
+                <label for="" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Tickets, $15 per person
+                </label>
+                <input type="text" class="modal-input" placeholder="How many?">
+
+                <label for="" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send To
+                </label>
+                <input type="text" class="modal-input" placeholder="Enter Email">
+
+                <button class="pay">PAY <i class="ti-check"></i></button>
+            </div>
+
+            <div class="modal-footer">
+                <div class="modal-footer-close">
+                    Close <i class="ti-close"></i>
+                </div>
+                <div class="modal-footer-help">
+                    Need <a href="#"> Help?</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
