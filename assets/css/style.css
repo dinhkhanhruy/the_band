@@ -1,5 +1,6 @@
 /* Reset Css*/
 
+
 * {
     padding: 0;
     margin: 0;
@@ -138,6 +139,7 @@ html {
     margin-right: auto;
     margin-left: auto;
     margin-top: 74px;
+    margin-bottom: 74px;
 }
 
 .section-heading {
@@ -161,15 +163,21 @@ html {
     line-height: 1.6;
 }
 
-#content .member-list {
+#content .member-list-top {
     margin-top: 48px;
-    padding-bottom: 112px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
 }
 
+.member-list-bottom {
+    padding-bottom: 96px;
+}
 #content .member-item {
     float: left;
     width: calc(100% / 3);
     text-align: center;
+    
 }
 
 #content .member-name {
@@ -396,7 +404,64 @@ html {
     margin-right: 16px;
 }
 
+.contact-form {
+    margin-top: 48px;
+    font-size: 15px;
+}
+.contact-info {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.contact-info p i {
+    display: inline-block; 
+    width: 35px;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-half {
+    width: 50%;
+    
+}
+.col-full {
+    width: 100%;
+}
 
+.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+.mt-16 {
+    margin-top: 16px;
+}
+
+.form-submit-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    float: right;
+    border: #000;
+}
+.form-submit-btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
 
 @keyframes modalFadeIn {
     from {

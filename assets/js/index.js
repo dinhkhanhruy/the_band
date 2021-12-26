@@ -22,3 +22,7 @@ modal.addEventListener('click', closeTickets);
 modalContainer.addEventListener('click', function (event) {
     event.stopPropagation()
 })
+
+
+console.log(myvar);
+var myvar = "duy";
